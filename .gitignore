@@ -1,0 +1,51 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+dist-ssr/
+build/
+coverage/
+
+# 日志
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.*.json
+
+# 工具/缓存
+.vite/
+.cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# 本地环境变量（避免把密钥提交到仓库）
+.env
+.env.local
+.env.*.local
+# 保留示例环境文件
+!.env.example
+!.env.*.example
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# 临时文件
+*.swp
+*.swo
+*.tmp
+~*

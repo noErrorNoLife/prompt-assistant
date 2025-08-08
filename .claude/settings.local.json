@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(grep:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(npm run build:*)",
+      "Bash(rg:*)",
+      "Bash(sed:*)",
+      "Bash(cat:*)",
+      "Bash(pip3 install:*)",
+      "Bash(apt list:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm install:*)"
+    ],
+    "deny": []
+  }
+}

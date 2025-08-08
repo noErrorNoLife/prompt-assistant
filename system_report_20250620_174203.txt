@@ -1,0 +1,107 @@
+﻿========================================
+系统诊断报告
+生成时间: 06/20/2025 17:42:03
+========================================
+
+=== 系统基本信息 ===
+操作系统: Microsoft Windows 10 专业版
+系统架构: AMD64
+PowerShell版本: 5.1.19041.4648
+用户名: Administrator
+计算机名: DESKTOP-7IMI2BF
+
+=== 关键环境变量 ===
+PATH: C:\Program Files\ShadowBot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;D:\consul_1.19.2_windows_amd64;C:\Users\Administrator\AppData\Local\nvm;C:\nvm4w\nodejs;D:\Program Files (x86)\NetSarang\Xshell 7\;C:\ProgramData\chocolatey\bin;C:\Program Files\Memurai\;C:\Program Files (x86)\NetSarang\Xftp 8\;C:\Users\Administrator\Anaconda3\Scripts;C:\Users\Administrator\Anaconda3\Scripts\Library\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\pcsuite\;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files\Go\bin;C:\Users\Administrator\.cargo\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python312\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Administrator\go\bin;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files\nodejs;C:\Program Files\nodejs\global;C:\Program Files\nodejs;C:\Program Files (x86)\Android\android-sdk\tools\bin;C:\Program Files (x86)\Android\adb\platform-tools;C:\Users\Administrator\AppData\Local\Programs\cursor\resources\app\bin;C:\ripgrep-14.1.1-i686-pc-windows-msvc;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\go\bin
+
+NVM_HOME: C:\Users\Administrator\AppData\Local\nvm
+NVM_SYMLINK: C:\nvm4w\nodejs
+NODE_PATH: C:\Program Files\nodejs
+NPM_CONFIG_PREFIX: 
+
+=== 命令可用性检查 ===
+✓ node 可用: v22.16.0
+✗ npm 不可用
+✗ npx 不可用
+✓ nvm 可用: 1.2.2
+
+=== NVM 相关目录检查 ===
+NVM_HOME 目录: C:\Users\Administrator\AppData\Local\nvm
+✓ NVM_HOME 目录存在
+NVM 目录内容:
+
+
+    Directory: C:\Users\Administrator\AppData\Local\nvm
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                        
+----                 -------------         ------ ----                                                                                                                        
+d-----         2025/6/20     17:38                v22.16.0                                                                                                                    
+-a----          2025/1/1      3:02          20502 alert.ico                                                                                                                   
+-a----          2025/1/1      3:05        8901232 author-nvm.exe                                                                                                              
+-a----          2025/1/1      3:02          20502 author.ico                                                                                                                  
+-a----          2025/1/1      3:02          20502 download.ico                                                                                                                
+-a----          2025/1/1      3:02            305 elevate.cmd                                                                                                                 
+-a----          2025/1/1      3:02            335 elevate.vbs                                                                                                                 
+-a----          2025/1/1      3:02            724 install.cmd                                                                                                                 
+-a----          2025/1/1      3:02           1125 LICENSE                                                                                                                     
+-a----          2025/1/1      3:02          15086 nodejs.ico                                                                                                                  
+-a----          2025/1/1      3:05        7071344 nvm.exe                                                                                                                     
+-a----          2025/1/1      3:02          20502 nvm.ico                                                                                                                     
+-a----          2025/1/1      3:02            218 run.cmd                                                                                                                     
+-a----         2025/6/20     17:23             71 settings.txt                                                                                                                
+-a----          2025/1/1      3:02            384 setuserenv.vbs                                                                                                              
+-a----          2025/1/1      3:02          20502 success.ico                                                                                                                 
+-a----         2025/6/20     17:23          30617 unins000.dat                                                                                                                
+-a----         2025/6/20     17:23        3053629 unins000.exe                                                                                                                
+-a----          2025/1/1      3:02            286 unsetuserenv.vbs                                                                                                            
+
+
+
+Node 版本目录:
+  v22.16.0:
+    node.exe: ✓ 存在
+    npm.cmd: ✗ 不存在
+    npx.cmd: ✗ 不存在
+
+NVM_SYMLINK 目录: C:\nvm4w\nodejs
+✓ NVM_SYMLINK 目录存在
+符号链接目录内容:
+
+
+    Directory: C:\nvm4w\nodejs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                        
+----                 -------------         ------ ----                                                                                                                        
+-a----         2025/6/20     17:27       85119640 node.exe                                                                                                                    
+
+
+
+=== 其他可能的 Node.js 安装位置 ===
+✓ 发现: C:\Program Files\nodejs
+
+Name  Length LastWriteTime     
+----  ------ -------------     
+cache        2025/6/20 17:37:32
+
+
+✗ 未发现: C:\Program Files (x86)\nodejs
+✗ 未发现: C:\Users\Administrator\AppData\Roaming\npm
+✗ 未发现: C:\Users\Administrator\AppData\Local\npm
+
+=== PATH 变量详细分析 ===
+15. C:\Users\Administrator\AppData\Local\nvm ✓
+16. C:\nvm4w\nodejs ✓
+33. C:\Users\Administrator\AppData\Roaming\nvm ✓
+34. C:\Program Files\nodejs ✓
+37. C:\Program Files\nodejs ✓
+38. C:\Program Files\nodejs\global ✗
+39. C:\Program Files\nodejs ✓
+
+=== 注册表信息 ===
+注册表中未找到 Node.js 相关程序
+
+========================================
+报告生成完成
+文件位置: D:\Codes\prompt_tools\prompt-assistant\system_report_20250620_174203.txt
+========================================
